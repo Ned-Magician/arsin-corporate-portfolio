@@ -1,46 +1,32 @@
 # Arsin Corporate Website
 
-A responsive corporate website built as a frontend portfolio project using Next.js, React, TypeScript, and Tailwind CSS.
+A responsive, multi-page corporate website built with **Next.js, React, TypeScript, and Tailwind CSS** for a public frontend portfolio showcase.
 
-The project represents an MDF lamination business and was built to practice real-world frontend architecture, reusable components, responsive design, accessibility, routing, and professional Git workflow.
+The website represents an MDF lamination business. This repository is a **separate public showcase**, not the client's production source code.
 
-## Live Demo
-
-Coming soon.
+**[Live Demo](https://arsin-corporate-portfolio.vercel.app/)**
 
 ## Tech Stack
 
-- Next.js 16
+- Next.js 16 (App Router)
 - React 19
 - TypeScript
-- Tailwind CSS
+- Tailwind CSS 4
 - ESLint
 - Git & GitHub
+- Vercel deployment
 
-## Features
+## What It Demonstrates
 
-- Responsive multi-page website
-- Next.js App Router
-- Desktop and mobile navigation
-- Reusable React components
-- Shared navigation and business data
-- Services and gallery layouts
-- FAQ section
-- Contact section
-- Accessible keyboard focus states
-- Semantic HTML
-- Next.js image optimization
-- Mobile-first responsive design
-- Static production rendering
+- Six routes: Home, Services, Gallery, About, FAQ, and Contact
+- Reusable layout, section, and UI components
+- Shared, typed content for navigation, services, FAQs, and contact details
+- Desktop navigation and an interactive mobile menu
+- Semantic HTML and keyboard-visible focus styles
+- Responsive layouts and Next.js image handling
+- Page metadata and production build tooling
 
-## Pages
-
-- Home
-- Services
-- Gallery
-- About
-- FAQ
-- Contact
+The contact page provides business information and direct contact links; it is not an online inquiry submission form.
 
 ## Project Structure
 
@@ -51,13 +37,11 @@ app/
   faq/
   gallery/
   services/
-
 components/
   layout/
   sections/
   services/
   ui/
-
 data/
   contact.ts
   faqs.ts
@@ -65,6 +49,25 @@ data/
   services.ts
 ```
 
-## Live Demo
+## Run Locally
 
-https://arsin-corporate-portfolio.vercel.app/
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+## Quality Checks
+
+```bash
+npm run lint
+npm run typecheck
+npm run build
+```
+
+These scripts are available in `package.json`. Automated test coverage is not claimed here.
+
+## Scope
+
+This repository is intended to demonstrate publicly shareable frontend implementation and design. It should not be mistaken for the client's private production repository.
