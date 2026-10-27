@@ -1,64 +1,49 @@
-# Arsin Corporate Website
+# Arsin — Corporate Website Showcase
 
-A responsive, multi-page corporate website built with **Next.js, React, TypeScript, and Tailwind CSS** for a public frontend portfolio showcase.
+**Next.js 16 · React 19 · TypeScript · Tailwind CSS 4**
 
-The website represents an MDF lamination business. This repository is a **separate public showcase**, not the client's production source code.
+A responsive, six-page corporate website showcase for an MDF lamination business. The project emphasizes clear navigation, reusable UI components, structured content, and practical contact options.
 
-**[Live Demo](https://arsin-corporate-portfolio.vercel.app/)**
+**[View live website](https://arsin-corporate-portfolio.vercel.app/)** · **[Developer's GitHub profile](https://github.com/Ned-Magician)**
 
-## Tech Stack
+![Arsin website — desktop homepage](./public/screenshots/home-desktop.png)
 
-- Next.js 16 (App Router)
-- React 19
-- TypeScript
-- Tailwind CSS 4
-- ESLint
-- Git & GitHub
-- Vercel deployment
+## Context
 
-## What It Demonstrates
+This publicly shareable project is related to **one paid corporate website engagement in 2026**. It is a **separate portfolio implementation**, not the client's private production source code. It does not represent a second client contract.
 
-- Six routes: Home, Services, Gallery, About, FAQ, and Contact
-- Reusable layout, section, and UI components
-- Shared, typed content for navigation, services, FAQs, and contact details
-- Desktop navigation and an interactive mobile menu
-- Semantic HTML and keyboard-visible focus styles
-- Responsive layouts and Next.js image handling
-- Page metadata and production build tooling
+## Highlights
 
-The contact page provides business information and direct contact links; it is not an online inquiry submission form.
+- Six routes: **Home, Services, Gallery, About, FAQ, Contact**
+- Shared TypeScript data for navigation, services, FAQs, and contact details
+- Reusable header, sections, and UI components
+- Responsive layout and interactive mobile navigation
+- Semantic HTML, visible keyboard focus styles, and page metadata
+- Gallery and direct contact links; **no backend contact form**
 
-## Project Structure
+| Homepage | Mobile navigation |
+| --- | --- |
+| ![Desktop layout](./public/screenshots/home-desktop.png) | ![Mobile menu](./public/screenshots/mobile-menu.png) |
+
+## Implementation
 
 ```text
-app/
-  about/
-  contact/
-  faq/
-  gallery/
-  services/
-components/
-  layout/
-  sections/
-  services/
-  ui/
-data/
-  contact.ts
-  faqs.ts
-  navigation.ts
-  services.ts
+app/            Next.js App Router pages and layouts
+components/     Reusable layout and page sections
+data/           Typed content and navigation data
+public/         Images, brand assets, screenshots
 ```
 
-## Run Locally
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+Then visit `http://localhost:3000`.
 
-## Quality Checks
+## Available quality checks
 
 ```bash
 npm run lint
@@ -66,8 +51,10 @@ npm run typecheck
 npm run build
 ```
 
-These scripts are available in `package.json`. Automated test coverage is not claimed here.
+These scripts are configured in `package.json`. Automated test coverage is **not** claimed.
 
 ## Scope
 
-This repository is intended to demonstrate publicly shareable frontend implementation and design. It should not be mistaken for the client's private production repository.
+This repository demonstrates front-end UI engineering and publicly shareable project work. It should **not** be mistaken for a verified live client production deployment.
+
+[**More selected work**](https://github.com/Ned-Magician)
