@@ -1,63 +1,22 @@
-# Tech Stack
+# Technology Stack
 
-## Framework
+This document reflects the dependencies currently declared in `package.json`.
 
-- Next.js 15 (App Router)
+| Area | Technology | Purpose |
+| --- | --- | --- |
+| Framework | Next.js 16 (App Router) | Page routing, metadata, server-rendered layouts |
+| UI | React 19 | Composable interface components |
+| Language | TypeScript | Typed content and components |
+| Styling | Tailwind CSS 4 | Responsive utility-first styles |
+| Static assets | Next.js image handling and public assets | Website imagery |
+| Tooling | ESLint, TypeScript, Git | Linting, type checks, version control |
+| Hosting | Vercel | Portfolio demo deployment |
 
-Reason:
-Modern React framework with excellent SEO, routing, and performance.
+## Architecture
 
----
+- Six public content routes built with the Next.js App Router
+- Reusable layout, section, and UI components
+- Typed content in the `data/` directory
+- Direct contact links rather than a server-side contact form
 
-## Language
-
-- TypeScript
-
-Reason:
-Better developer experience, safer code, easier maintenance.
-
----
-
-## Styling
-
-- Tailwind CSS
-
-Reason:
-Fast development, consistency, responsive design.
-
----
-
-## UI Components
-
-- shadcn/ui
-
-Reason:
-Accessible, customizable, production-ready components.
-
----
-
-## Icons
-
-- Lucide React
-
-Reason:
-Clean, lightweight, consistent icon set.
-
----
-
-## Deployment
-
-- Vercel
-
-Reason:
-Simple deployment for Next.js applications.
-
----
-
-## Version Control
-
-- Git
-- GitHub
-
-Reason:
-Professional workflow and version history.
+The project does not claim a database, user authentication, online payments, or production client backend.
